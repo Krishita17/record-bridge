@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use RecordBridge, please cite it as below."
+title: "RecordBridge: A Student-Records Data Integrity & Governance Pipeline"
+abstract: >-
+  A config-driven data-integrity pipeline that bulk-ingests messy student
+  records, validates and de-duplicates them with a full audit trail, and reports
+  data quality on a dashboard. Runs entirely on synthetic data with no PII.
+type: software
+authors:
+  - family-names: "Choksi"
+    given-names: "Krishita Sanjay"
+version: 0.1.0
+date-released: 2026-01-01
+license: MIT
+repository-code: "https://github.com/Krishita17/record-bridge"
+keywords:
+  - data governance
+  - data quality
+  - data engineering
+  - entity resolution
+  - record linkage
+  - fuzzy matching
+  - audit trail
+  - synthetic data

@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recordbridge"
+version = "0.1.0"
+description = "A config-driven student-records data-integrity & governance pipeline: bulk-ingest, validate, de-duplicate, audit, and report on synthetic student data."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Krishita Sanjay Choksi" }]
+keywords = [
+    "data-governance",
+    "data-quality",
+    "data-engineering",
+    "etl",
+    "entity-resolution",
+    "record-linkage",
+    "fuzzy-matching",
+    "deduplication",
+    "audit-trail",
+    "synthetic-data",
+    "data-integrity",
+    "student-information-system",
+    "ferpa",
+]
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "Faker>=24.0",
+    "rapidfuzz>=3.5",
+    "PyYAML>=6.0",
+    "plotly>=5.18",
+    "matplotlib>=3.7",
+    "openpyxl>=3.1",
+    "tabulate>=0.9",
+]
+
+[project.urls]
+Homepage = "https://github.com/Krishita17/record-bridge"
+Repository = "https://github.com/Krishita17/record-bridge"
+
+[project.scripts]
+recordbridge = "recordbridge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

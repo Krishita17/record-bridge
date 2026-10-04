@@ -1,0 +1,98 @@
+# RecordBridge validation rules
+# ------------------------------------------------------------------
+# These rules are data, not code. Point RecordBridge at any CSV and
+# describe its columns here; no source changes are required.
+#
+# Each rule has:
+#   field    : the column it applies to
+#   check    : one of
+#                required        -> value must be present / non-blank
+#                email           -> must look like an email address
+#                phone           -> must contain >= min_digits digits
+#                date            -> must parse as a date; not in the future
+#                regex           -> must match `pattern`
+#                range           -> numeric value within [min, max]
+#   severity : error | warning   (nothing is ever silently dropped)
+#   params   : check-specific options
+
+dataset: student_records
+
+# Columns expected after ingestion (used for header validation).
+schema:
+  - student_id
+  - first_name
+  - last_name
+  - dob
+  - email
+  - phone
+  - program
+  - gpa
+
+# The strong keys used by the duplicate resolver for exact matching.
+exact_keys:
+  - student_id
+  - email
+
+# Fuzzy-matching configuration (duplicate resolver).
+fuzzy:
+  # Fields combined into the comparison blob.
+  name_fields: [first_name, last_name]
+  dob_field: dob
+  # Thresholds on the 0-100 similarity score.
+  auto_merge_threshold: 92    # >= this -> auto-merge (high confidence)
+  review_threshold: 80        # [review, auto_merge) -> hold for manual review
+  # Below review_threshold -> treated as distinct (keep both).
+  # Blocking key: candidates only compared within the same block
+  # (first initial of last name) to keep matching tractable at scale.
+  blocking: last_initial
+
+rules:
+  - field: student_id
+    check: required
+    severity: error
+  - field: student_id
+    check: regex
+    severity: error
+    params:
+      pattern: '^S\d{7}$'       # e.g. S0001234
+
+  - field: first_name
+    check: required
+    severity: error
+  - field: last_name
+    check: required
+    severity: error
+
+  - field: dob
+    check: required
+    severity: error
+  - field: dob
+    check: date
+    severity: error
+    params:
+      not_future: true
+      min_year: 1950
+
+  - field: email
+    check: required
+    severity: error
+  - field: email
+    check: email
+    severity: error
+
+  - field: phone
+    check: phone
+    severity: warning
+    params:
+      min_digits: 10
+
+  - field: program
+    check: required
+    severity: warning
+
+  - field: gpa
+    check: range
+    severity: error
+    params:
+      min: 0.0
+      max: 4.0

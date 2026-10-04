@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Generated data (large / reproducible from seed). A small sample is committed.
+data/*.csv
+data/*.db
+!data/sample_intake.csv
+
+# Generated artifacts are regenerable via `make all`; keep the repo light.
+dashboard/*.html
+
+# OS
+.DS_Store

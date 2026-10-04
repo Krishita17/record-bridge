@@ -1,0 +1,79 @@
+{
+  "validation": {
+    "overall": {
+      "tp": 390,
+      "fp": 0,
+      "fn": 110,
+      "precision": 1.0,
+      "recall": 0.78,
+      "f1": 0.8764
+    },
+    "per_type": {
+      "bad_date": {
+        "injected": 86,
+        "caught": 47,
+        "recall": 0.5465
+      },
+      "bad_email": {
+        "injected": 64,
+        "caught": 64,
+        "recall": 1.0
+      },
+      "bad_student_id": {
+        "injected": 65,
+        "caught": 65,
+        "recall": 1.0
+      },
+      "future_dob": {
+        "injected": 70,
+        "caught": 70,
+        "recall": 1.0
+      },
+      "missing_required": {
+        "injected": 71,
+        "caught": 71,
+        "recall": 1.0
+      },
+      "name_typo": {
+        "injected": 71,
+        "caught": 0,
+        "recall": 0.0
+      },
+      "out_of_range_gpa": {
+        "injected": 73,
+        "caught": 73,
+        "recall": 1.0
+      }
+    }
+  },
+  "deduplication": {
+    "overall": {
+      "tp": 237,
+      "fp": 10,
+      "fn": 13,
+      "precision": 0.9595,
+      "recall": 0.948,
+      "f1": 0.9537
+    },
+    "by_type": {
+      "exact": {
+        "injected": 130,
+        "caught": 128,
+        "recall": 0.9846
+      },
+      "near": {
+        "injected": 120,
+        "caught": 109,
+        "recall": 0.9083
+      }
+    }
+  },
+  "quality_score": 92.57,
+  "quality_over_batches": [
+    92.21,
+    92.02,
+    91.98,
+    92.3,
+    92.57
+  ]
+}

@@ -1,0 +1,127 @@
+row_index,student_id,first_name,last_name,dob,email,phone,program,gpa
+111,S0000112,Brandon,Wolf,2008-07-01,brandon.wolf111@example.edu,987-490-6068,Political Science,3.25
+101,S0000102,Bryan,Johnson,1998-05-09,bryan.johnson101@example.edu,201-098-3263,Business Administration,2.4
+76,S0000077,Ashley,Watson,2006-02-01,ashley.watson76@example.edu,373-233-2493,English Literature,2.3
+79,S0000080,William,Thompson,2004-03-12,william.thompson79@example.edu,019-953-0552,Business Administration,3.23
+40,S0000041,Brenda,Long,1999-12-13,brenda.long40@example.edu,319-829-6572,Mechanical Engineering,3.68
+22,S0000023,Walter,Gallagher,2000-04-26,walter.gallagher22@example.edu,862-057-9868,English Literature,2.41
+41,S0000042,Justin,Montgomery,2027-04-04,justin.montgomery41@example.edu,868-288-9093,Psychology,2.95
+49,S0000050,Erik,Dodson,2005-04-18,erik.dodson49@example.edu,642-656-5150,Computer Science,2.44
+5,S0000006,Nancy,Blair,1999-10-14,nancy.blair5@example.edu,118-625-2760,Business Administration,2.07
+93,S0000094,Wayne,Gillespie,1998-09-02,wayne.gillespie93@example.edu,498-355-0326,Mechanical Engineering,3.39
+98,S0000099,Aaron,Kelly,1997-03-29,aaron.kelly98@example.edu,583-694-9235,Business Administration,3.23
+52,S0000053,Leslie,Mejia,2006-09-30,leslie.mejia52@example.edu,606-883-1067,Political Science,2.16
+86,S0000087,Sara,Hughes,2008-05-31,sara.hughes86@example.edu,923-969-3729,Mechanical Engineering,3.5
+66,S0000067,Dustin,Long,1998-09-26,dustin.long66@example.edu,926-002-6751,Biology,3.38
+120,S0000121,Evvan,Jackson,1996-09-10,evan.jackson85.dup120@example.edu,673-420-7509,Psychology,2.17
+91,S0000092,Brian,Gordon,2001-01-16,brian.gordon91@example.edu,201-913-2742,Mathematics,3.83
+65,S0000066,Steven,Baker,2008-03-16,steven.baker65@example.edu,197-923-7609,English Literature,3.13
+13,S0000014,Edward,Garcia,2000-11-04,edward.garcia13@example.edu,013-962-4595,Computer Science,3.95
+123,S0000124,Aason,Kelly,1997-03-29,aaron.kelly98.dup123@example.edu,583-694-9235,Business Administration,3.23
+26,S0000027,William,Aguirre,2002-11-11,william.aguirre26@example.edu,384-837-2616,Business Administration,3.59
+108,S0000109,Tiffany,Haynes,1996-03-08,tiffany.haynes108@example.edu,201-019-5381,Economics,2.16
+125,S0000126,Traa,Parker,1998-10-07,tara.parker36.dup125@example.edu,353-265-0201,English Literature,3.58
+51,S0000052,Michael,Patterson,1999-08-10,michael.patterson51@example.edu,041-042-3468,Business Administration,2.8
+59,S0000060,Peter,Mcintosh,2007-04-25,peter.mcintosh59@example.edu,773-132-2817,Biology,2.17
+43,S0000044,Aaron,Salinas,2006-03-25,aaron.salinas43@example.edu,881-817-4143,Psychology,3.29
+15,S0000016,Maria,Martin,1996-01-29,maria.martin15@example.edu,852-808-4148,Biology,2.58
+107,S0000108,Kristina,Myers,2003-12-13,kristina.myers107@example.edu,922-001-1925,Economics,3.91
+20,S0000021,George,Martinez,1997-11-13,george.martinez20@example.edu,729-975-2882,Economics,2.19
+94,S0000095,Evan,Mayer,2005-04-08,evan.mayer94@example.edu,624-180-5788,Psychology,3.04
+77,S0000078,Mark,Foster,2009-08-25,mark.foster77@example.edu,883-170-1073,Mechanical Engineering,3.9
+115,S0000116,Michael,Morales,2001-04-11,michael.morales115@example.edu,160-534-4688,Mechanical Engineering,3.67
+82,S0000083,Robert,Campbell,2000-01-23,robert.campbell82@example.edu,049-566-0536,Political Science,2.25
+58,S0000059,Patrick,Brewer,2001-10-19,patrick.brewer58@example.edu,402-067-9701,Nursing,3.92
+46,S0000047,Heather,Lowe,1999-10-29,heather.lowe46@example.edu,847-771-8341,Economics,4.7
+45,S0000046,Carol,Rivera,2004-11-15,carol.rivera45@example.edu,499-207-0741,Nursing,3.77
+12,S0000013,Timothy,Morales,2030-01-31,timothy.morales12@example.edu,372-159-0109,English Literature,3.17
+74,S0000075,Timothy,Stephens,2033-02-12,timothy.stephens74@example.edu,611-491-3167,Mechanical Engineering,2.68
+11,S0000012,Ashley,Benton,2005-06-03,ashley.benton11@example.edu,890-786-6661,English Literature,3.9
+85,S0000086,Evan,Jackson,1996-09-10,evan.jackson85@example.edu,673-420-7509,Psychology,2.17
+96,S0000097,Kathy,Ramos,1998-03-24,kathy.ramos96@example.edu,048-449-5003,Business Administration,3.07
+18,S0000019,Christopher,Garcia,2002-05-02,christopher.garcia18@example.edu,537-990-7511,Biology,2.21
+50,S0000051,Mark,Morgan,2001-04-30,mark.morgan50@example.edu,304-451-6691,Psychology,5.2
+2,S0000003,Brandon,Walker,2003-07-19,brandon.walker2@example.edu,246-281-9482,Mechanical Engineering,3.64
+84,S0000085,Alexis,Arnold,2004-09-21,alexis.arnold84@example.edu,619-958-2254,Political Science,2.96
+17,S0000018,James,Vasquez,2005-12-27,james.vasquez17@example.edu,047-439-5755,English Literature,2.62
+29,S0000030,Michael,Davis,2000-11-16,michael.davis29@example.edu,587-706-5894,Economics,3.46
+80,S0000081,Bradley,Cooke,1996-04-15,bradley.cooke80@example.edu,305-652-9413,Biology,3.27
+37,S0000038,Colleen,Hobbs,2001-10-13,colleen.hobbs37@example.edu,016-849-3407,Economics,2.68
+30,S0000031,William,Brown,2009-07-18,william.brown30@example.edu,311-440-2426,Psychology,3.22
+54,S0000055,Jonathan,Rodgers,2004-11-22,jonathan.rodgers54@example.edu,634-786-1221,Psychology,3.77
+112,S0000113,Kendra,Reed,2005-08-14,kendra.reed112@example.edu,893-194-2608,English Literature,3.68
+81,S0000082,Anthony,Simpson,2002-07-10,anthony.simpson81@example.edu,616-828-1264,Economics,3.2
+62,S0000063,Joshua,Stewart,2007-07-04,joshua.stewart62@example.edu,378-383-0640,English Literature,2.36
+97,S0000098,Edward,Jensen,2001-10-21,edward.jensen97@example.edu,850-273-9000,Mathematics,2.66
+116,S0000117,George,Haas,2004-08-01,george.haas116@example.edu,728-990-5958,Mechanical Engineering,3.82
+27,S0000028,Scott,Jones,1999-02-14,scott.jones27@example.edu,134-125-2427,Business Administration,2.16
+3,S0000004,Dakota,Duncan,1998-05-20,dakota.duncan3@example.edu,181-909-3786,Mechanical Engineering,2.73
+33,S0000034,Shawn,Morgan,2003-07-01,shawn.morgan33@example.edu,492-083-1240,Economics,2.3
+105,S0000106,Nicole,Smith,2027-05-24,nicole.smith105@example.edu,332-536-5936,Business Administration,3.39
+36,S0000037,Tara,Parker,1998-10-07,tara.parker36@example.edu,353-265-0201,English Literature,3.58
+21,S0000022,Andrew,Lloyd,2005-12-03,andrew.lloyd21@example.edu,182-633-0434,Mechanical Engineering,3.13
+32,S0000033,Lauren,White,2008-04-15,lauren.white32@example.edu,401-419-3141,Nursing,2.33
+109,S0000110,Nichole,Campos,2005-09-17,nichole.campos109@example.edu,613-331-0014,Mechanical Engineering,2.45
+28,S0000029,Jeffrey,Cisneros,2001-04-30,jeffrey.cisneros28@example.edu,723-268-6563,Psychology,3.05
+70,S0000071,Nicholas,Marshall,2007-01-01,nicholas.marshall70@example.edu,043-195-5459,Nursing,2.79
+122,S0000091,Carlos,Howard,2000-11-13,carlos.howard90@example.edu,788-002-1581,Mathematics,2.72
+88,S0000089,David,Greene,2003-06-15,david.greene88@example.edu,464-936-6578,Biology,3.03
+100,S0000101,Brian,Nicholson,2008-04-02,brian.nicholson100@example.edu,997-987-3200,Nursing,3.48
+35,S0000036,Benjamin,Smith,2002-10-31,benjamin.smith35@example.edu,387-371-6786,Mechanical Engineering,3.53
+10,S0000011,Jesse,Hall,2002-07-18,jesse.hall10@example.edu,924-402-6859,Business Administration,3.26
+114,S0000115,Jorge,Acevedo,1999-09-22,jorge.acevedo114@example.edu,337-211-7815,Economics,3.6
+71,S0000072,Bradley,Francis,2005-05-29,bradley.francis71@example.edu,440-910-3177,Political Science,3.27
+95,S0000096,Betty,Khan,1997-03-20,betty.khan95@example.edu,865-465-9255,Biology,2.71
+31,S0000032,Melissa,Lowe,2008-12-30,melissa.lowe31@example.edu,628-897-5140,Mechanical Engineering,2.24
+16,S0000017,Michael,Jackson,2006-07-24,michael.jackson16@example.edu,888-539-3363,Biology,3.08
+87,S0000088,Jeffery,Ross,2003-01-02,jeffery.ross87@example.edu,651-233-0805,Psychology,2.96
+1,S0000002,Ryan,Jones,1997-01-08,ryan.jones1@example.edu,609-139-0996,Nursing,3.3
+104,S0000105,Matthew,Brady,2005-06-26,matthew.brady104@example.edu,404-868-4431,Psychology,2.94
+113,S0000114,James,Gill,2009-06-11,james.gill113@example.edu,057-172-7958,Political Science,3.82
+121,S0000122,iMchael,Jackson,2006-07-24,michael.jackson16.dup121@example.edu,888-539-3363,Biology,3.08
+9,S0000010,Andrea,Ware,2007-03-23,andrea.ware9_at_example.edu,846-563-2122,English Literature,2.25
+4,S0000005,Kimberly,Owens,2008-09-06,kimberly.owens4@example.edu,543-231-9487,Computer Science,3.82
+38,S0000039,Jacob,Adams,1995-10-21,jacob.adams38@example.edu,558-530-4352,Economics,3.19
+78,S0000079,Mary,Rocha,1996-04-26,mary.rocha78@example.edu,431-039-9315,English Literature,2.05
+73,S0000074,Mark,Flores,2000-10-26,mark.flores73@example.edu,918-362-3610,Business Administration,2.88
+117,S0000118,Eric,Cameron,2005-01-08,eric.cameron117@example.edu,527-749-3257,Business Administration,2.96
+34,S0000035,Howard,Randolph,2004-07-22,howard.randolph34@example.edu,834-782-4504,Political Science,2.84
+64,S0000065,Jennifer,Cox,2001-04-20,jennifer.cox64@example.edu,048-137-3433,Nursing,3.07
+61,S0000062,Cory,Evans,2008-12-18,cory.evans61@example.edu,364-390-0847,Business Administration,2.02
+53,S0000054,Christina,Taylor,2007-12-05,christina.taylor53@example.edu,708-227-6544,Political Science,2.8
+99,S0000100,Claire,Wells,1997-08-22,claire.wells99@example.edu,327-112-4640,Business Administration,3.61
+24,S0000025,Angela,Nguyen,2003-01-04,angela.nguyen24@example.edu,871-803-3401,Economics,2.93
+56,S0000057,Gregg,Peters,2000-03-22,gregg.peters56@example.edu,549-306-6683,Psychology,3.41
+69,S0000070,Janet,Gonzalez,2003-05-03,janet.gonzalez69@example.edu,735-570-6360,Mathematics,2.78
+63,S0000064,Andrew,Jimenez,2005-03-13,andrew.jimenez63@example.edu,614-365-3705,Psychology,2.01
+106,S0000107,Rebecca,Mccoy,2005-06-15,rebecca.mccoy106@example.edu,877-800-6394,Economics,2.89
+60,S0000061,Christopher,Frank,1995-10-09,christopher.frank60@example.edu,239-042-4861,Biology,2.46
+19,S0000020,Renee,Casey,2006-04-04,,726-516-7612,English Literature,3.28
+6,S0000007,Suzanne,Jones,2003-07-26,suzanne.jones6@example.edu,555-979-7114,Nursing,4.7
+55,S0000056,Jared,Bullock,2002-09-18,jared.bullock55@example.edu,375-762-8331,Nursing,3.73
+75,S0000076,Vanessa,Stanton,1998-03-06,vanessa.stanton75@example.edu,267-938-1444,Computer Science,2.2
+0,S0000001,Mario,Hernandez,2004-11-12,mario.hernandez0@example.edu,181-590-8301,Economics,3.9
+44,S0000045,Jessica,Harris,2006-02-10,jessica.harris44@example.edu,776-174-0931,Political Science,2.57
+7,XYZ,Thomas,Beck,1996-08-08,thomas.beck7@example.edu,497-465-0752,Business Administration,2.18
+48,S0000049,Julie,Green,2000-10-14,julie.green48@example.edu,984-153-7760,English Literature,2.23
+124,S0000067,Dustin,Long,1998-09-26,dustin.long66@example.edu,926-002-6751,Biology,3.38
+102,S0000103,April,Day,2004-10-26,april.day102@example.edu,692-841-4078,Political Science,2.71
+39,S0000040,Aaron,James,2002-05-26,aaron.james39@example.edu,833-801-4126,English Literature,3.59
+8,S0000009,Cheryl,Snyder,1998-10-22,cheryl.snyder8@example.edu,423-667-1276,Nursing,2.12
+90,S0000091,Carlos,Howard,2000-11-13,carlos.howard90@example.edu,788-002-1581,Mathematics,2.72
+42,S0000043,Christopher,Williams,2004-09-03,christopher.williams42@example.edu,167-800-8374,Mechanical Engineering,2.12
+110,S0000111,Thomas,Anderson,2006-11-04,thomas.anderson110@example.edu,345-564-0544,Business Administration,2.68
+89,S0000090,Samuel,Johnson,2004-06-02,samuel.johnson89@example.edu,773-797-2761,Business Administration,3.9
+72,S0000073,Stephanie,Hughes,1999-04-08,stephanie.hughes72@example.edu,672-720-4293,Computer Science,2.38
+119,S0000120,Eugene,Murphy,1998-05-27,eugene.murphy119@example.edu,121-362-2446,Economics,2.17
+14,S0000015,Thomas,Wilson,2002-08-02,thomas.wilson14@example.edu,777-412-1547,Computer Science,3.11
+57,S0000058,Nicholas,Morgan,1996-08-15,nicholas.morgan57@example.edu,495-288-3143,Economics,3.37
+92,S0000093,Gina,Griffith,1998-11-06,gina.griffith92@example.edu,594-259-4724,Mathematics,2.6
+103,S0000104,Adam,Richard,2006-03-09,adam.richard103@example.edu,717-231-4301,Computer Science,3.98
+23,S0000024,David,Hernandez,2002-11-25,david.hernandez23@example.edu,729-022-2791,Mathematics,2.86
+83,,Jessica,Harris,1995-11-02,jessica.harris83@example.edu,261-169-5722,Political Science,3.99
+67,S0000068,Whitney,Huynh,2000-05-12,whitney.huynh67@example.edu,287-046-5572,Mathematics,3.9
+118,S0000119,Dawn,Horton,2002-11-11,dawn.horton118@example.edu,449-223-5985,Biology,2.87
+25,S0000026,William,Hoffman,2006-05-24,william.hoffman25@example.edu,175-989-8347,Political Science,2.72
+68,S0000069,Daniel,Miller,1996-11-19,daniel.miller68_at_example.edu,618-365-4610,Computer Science,2.91
+47,S0000048,Sharon,Smith,2002-03-07,sharon.smith47@example.edu,874-633-1912,Political Science,2.71
